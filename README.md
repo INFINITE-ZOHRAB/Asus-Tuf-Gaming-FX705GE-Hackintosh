@@ -12,7 +12,7 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 | Component         | Status           |
 | ----------------- | ---------------- |
 | CPU               | Intel Core i7-8750H (Coffee Lake)      |
-| GPU               | NVidia Mobile 1050Ti (UnSupportd)      |
+| GPU               | NVidia Mobile 1050Ti (UnSupported)      |
 | Audio             | Realtek ALC233      |
 | Ethernet          | Realtek RTL8168/8111      |
 | Wi-Fi (Formal Adapter)             | Intel Wireless-AC 9560      |
