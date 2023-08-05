@@ -15,12 +15,13 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 | GPU               | NVidia Mobile 1050Ti (UnSupportd)      |
 | Audio             | Realtek ALC233      |
 | Ethernet          | Realtek RTL8168/8111      |
-| Wi-Fi (Formal Adapter)             | [Name] (Works/Not Working)      |
-| Wi-Fi (New Adapter)             | [Name] (Works/Not Working)      |
-| Bluetooth         | [Name] (Works/Not Working)      |
-| Touchpad          | [Name] (Works/Not Working)      |
-| Battery           | [Name] (Works/Not Working)      |
-| Sleep/Wake        | [Name] (Works/Not Working)      |
+| Wi-Fi (Formal Adapter)             | Intel Wireless-AC 9560      |
+| Wi-Fi (New Adapter)             | Fenvi BCM94360NG      |
+| Bluetooth         | Fenvi BCM94360NG      |
+| Touchpad          | Trackpad ELAN1200 I2C-HID      |
+| Keyboard          | Keyboard PS2      |
+| Battery           | Asus Default Battery      |
+| Sleep/Wake/Shutdown        | [Name] (Works/Not Working)      |
 | Other Components  | [Name] (Works/Not Working)      |
 
 ## Future Plans
