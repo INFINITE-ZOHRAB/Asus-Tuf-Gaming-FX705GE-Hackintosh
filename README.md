@@ -4,9 +4,12 @@
 Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable system, and unexpected issues may occur. I take no responsibility for any damage, data loss, or malfunction caused by the use of this project. Proceed at your own risk.
 
 ## Version Info
-| Type       | Version                                           |
-| Opencore Version  | 0.9.3 Release                                           |
-| MacOS Versions    | Tested/Works                                           |
+| V.I.       | Type                                           |
+| --------------- | ------------------------------------------------ |
+| OC Version             | OC 0.9.3             |
+| MacOs Tested             | Monterey, Ventura, Sonoma (Still in work)           |
+| Status           | W.I.P                                |
+
 
 ## Components and Compatibility
 
@@ -14,23 +17,37 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 - ⚠️ - In Development/Partially Working/Left to Work Partially
 - ❌ - Does Not Work
 
-| Component       | Status                                           |
-| --------------- | ------------------------------------------------ |
-| CPU             | Intel Core i7-8750H (Coffee Lake) ✅             |
-| GPU             | NVidia Mobile 1050Ti (Unsupported) ❌           |
-| Audio           | Realtek ALC233 ✅                                |
-| Ethernet        | Realtek RTL8168/8111 ✅                         |
-| Wi-Fi (Formal Adapter) | Intel Wireless-AC 9560 ⚠️                  |
-| Wi-Fi (New Adapter)    | Fenvi BCM94360NG ✅                         |
-| Bluetooth      | Fenvi BCM94360NG ✅                              |
-| Touchpad       | Trackpad ELAN1200 I2C-HID ✅                    |
-| Keyboard       | Keyboard PS2 ⚠️                                 |
-| Battery        | Asus Default Battery ✅                         |
-| Sleep/Wake/Shutdown  | ✅                                            |
-| Webcam         | ✅                                              |
-| Microphone     | ✅                                              |
-| USB Ports      | ✅                                              |
-| Fans           | ⚠️                                              |
+| Component       | Model                                           | Status             |
+| --------------- | ------------------------------------------------ | --------------- |
+| `CPU`             | Intel Core i7-8750H (Coffee Lake)             | ✅             |
+| `GPU`             | NVidia Mobile 1050Ti (Unsupported)           | ❌             |
+| `Audio`           | Realtek ALC233                                | ✅             |
+| `Ethernet`        | Realtek RTL8168/8111                         | ✅             |
+| `Wi-Fi (Formal Adapter)` | Intel Wireless-AC 9560                  | ⚠️             |
+| `Wi-Fi (New Adapter)`    | Fenvi BCM94360NG                         | ✅             |
+| `Bluetooth`      | Fenvi BCM94360NG                              | ✅             |
+| `Touchpad`       | Trackpad ELAN1200 I2C-HID                    | ✅             |
+| `Keyboard`       | Keyboard PS2                                 | ⚠️             |
+| `Battery`        | Asus Default Battery                         | ✅             |
+| `Webcam`         | USB2.0 HD UVC WebCam Internal                                              | ✅             |
+| `Microphone`     | Realtek                                              | ✅             |
+| `USB Ports`     | 3 USB 2.0                                              | ✅             |
+| `Fans`           | 2 Fans                                              | ⚠️             |
+
+
+| Function       | Status             |
+| --------------- | --------------- |
+| `Sleep/Wake/Shutdown`  | ✅             |
+| `AirDrop`  | ✅             |
+| `FaceTime/IMessage`  | ✅             |
+| `AirPlay`  | ✅             |
+
+| Storage       | Status             |
+| --------------- | --------------- |
+| `Samsung 970 Evo Plus 2TB`  | ⚠️             |
+| `WD 2.5" HDD 1TB`  | ✅             |
+| `SPCC 238GB`  | ✅             |
+
 
 ## Info about components with compatibility issues
 
@@ -74,15 +91,12 @@ Enter the BIOS menu, select Advanced mode, and navigate to the Advanced Tab. Dis
 #### 6. Boot.
 Boot to the installation and follow the default procedure from the [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb).
 
-## Credits
+## Gratitude
 
-Special thanks to the following contributors for their support and efforts in this project:
+- [Dortania](https://dortania.github.io/) - For guides
+- [Acidathera](https://github.com/acidanthera) - For OC and Kexts
+- [RehabMan](https://github.com/RehabMan) - for ACPI Patching
+- The Hackintosh community - for helping me with debugging the hackintosh.
 
-- [Contributor 1 Name](link to profile)
-- [Contributor 2 Name](link to profile)
-- [Contributor 3 Name](link to profile)
-
-Your contributions are greatly appreciated!
----
 
 Good luck with your project! If you have any further questions or need more assistance, don't hesitate to ask.
