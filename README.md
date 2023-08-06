@@ -5,70 +5,74 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 
 ## Version Info
 
-| Opencore Version        | 0.9.3 Release           |
-| MacOs Versions        | Tested/Works/           |
+| Opencore Version  | 0.9.3 Release      |
+| MacOS Versions    | Tested/Works       |
 
 ## Components and Compatibility
 
 - ✅ - Works
-- ⚠️ - In Development/Partially working/Left to work partially
-- ❌ - Does not work
+- ⚠️ - In Development/Partially Working/Left to Work Partially
+- ❌ - Does Not Work
 
-| Component         | Status           |
-| ----------------- | ---------------- |
-| CPU               | Intel Core i7-8750H (Coffee Lake) ✅     |
-| GPU               | NVidia Mobile 1050Ti (UnSupported) ❌     |
-| Audio             | Realtek ALC233 ✅     |
-| Ethernet          | Realtek RTL8168/8111 ✅     |
-| Wi-Fi (Formal Adapter)             | Intel Wireless-AC 9560 ⚠️      |
-| Wi-Fi (New Adapter)             | Fenvi BCM94360NG ✅      |
-| Bluetooth         | Fenvi BCM94360NG ✅      |
-| Touchpad          | Trackpad ELAN1200 I2C-HID ✅      |
-| Keyboard          | Keyboard PS2 ⚠️      |
-| Battery           | Asus Default Battery ✅      |
-| Sleep/Wake/Shutdown        | ✅      |
-| Webcam  | ✅      |
-| Microphone  | ✅      |
-| USB Ports  | ✅      |
-| Fans  | ⚠️      |
+| Component       | Status                                           |
+| --------------- | ------------------------------------------------ |
+| CPU             | Intel Core i7-8750H (Coffee Lake) ✅             |
+| GPU             | NVidia Mobile 1050Ti (Unsupported) ❌           |
+| Audio           | Realtek ALC233 ✅                                |
+| Ethernet        | Realtek RTL8168/8111 ✅                         |
+| Wi-Fi (Formal Adapter) | Intel Wireless-AC 9560 ⚠️                  |
+| Wi-Fi (New Adapter)    | Fenvi BCM94360NG ✅                         |
+| Bluetooth      | Fenvi BCM94360NG ✅                              |
+| Touchpad       | Trackpad ELAN1200 I2C-HID ✅                    |
+| Keyboard       | Keyboard PS2 ⚠️                                 |
+| Battery        | Asus Default Battery ✅                         |
+| Sleep/Wake/Shutdown  | ✅                                            |
+| Webcam         | ✅                                              |
+| Microphone     | ✅                                              |
+| USB Ports      | ✅                                              |
+| Fans           | ⚠️                                              |
 
 ## Info about components with compatibility issues
 
 ### GPU
-#### Pretty much obvious, Apple hasn't released support for NVidia graphics and later for Higher MacOS.
+#### It is important to note that Apple hasn't released support for NVidia graphics and later for Higher macOS versions.
 
 ### Wi-Fi (Formal Adapter)
-#### Reason for ticking it as left to work partially was due to 3 main reasons: Instability, unfunctional and lack of possiblities for fix.
-- Instability : Monterey, Ventura, and Sonoma MacOS have experience same issue: Sudden crashes from attempting to connect Wi-Fi. May it have been my user mistake, but with no avail it just wouldn't work. Even if I start from scratch. Also as for bluetooth, same issue here where as instead the audio and activation worked poorly. If bluetooth was to be deactivated, turning it back on would be impossible unless the machine was rebooted. I as well would like to mark that Wireless Headphones on the machine's bluetooth were horrible, Facetime audio would end up being some gargling glitching sounds, and etc.
-- Unfunctionality : Says for itself, no airdrop support.
-- Lack of fixes : May some have found solution, I will not implement it on the machine again since it's not worth debugging the not-fully-support Wi-Fi card to make it work properly.
+#### The Wi-Fi functionality remains partially unresolved due to the following reasons:
+- Instability: macOS versions like Monterey, Ventura, and Sonoma have experienced crashes when attempting to connect to Wi-Fi, even after starting from scratch.
+- Unfunctionality: The Wi-Fi card lacks support for features like Airdrop.
+- Lack of Fixes: Despite attempts, there is no reliable solution to fully support the Wi-Fi card, making it unfeasible to continue debugging the issue.
 
 ### Keyboard
-#### While the keyboard itself was working, keys function as needed, FN keys work properly. The main issues in it are the FN keys mapping and Keyboard Backlight. I will attempt to fix it while I can since later on I will be very busy.
+#### Although the keyboard itself works, the main issues are with FN keys mapping and Keyboard Backlight. Efforts are ongoing to address these issues, but progress may be limited due to other commitments.
 
 ### Fans
-#### I would describe them totally not working since I have implemented any attempts, but marking them as in development would be correctly as I am working on a possible solution for fan control and readings.
+#### While fan control and readings have not been implemented yet, efforts are underway to develop a possible solution for this functionality.
 
 ## Todo
-- [ ] Fix Fans control and reading.
-- [ ] Fix Keyboard Fn mapping and lights
+- [ ] Fix Fan control and readings.
+- [ ] Fix Keyboard FN mapping and lights.
 
-## Instructions for Use
+## Installation Procedures:
+### 0. Familiarize Yourself with Opencore, Guides, and Hackintosh Overall.
 
-1. **Step 1:** [Add your instructions here]
-2. **Step 2:** [Add your instructions here]
-3. **Step 3:** [Add your instructions here]
-4. **Step 4:** [Add your instructions here]
+#### 1. Prepare Your USB.
+Follow the [Dortania Guide on Getting the USB Ready](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).
 
-Feel free to customize the instructions based on your project's specific needs.
+#### 2. Unlock the CFG-Lock.
+Follow the [Dortania Guide on CFG-Lock Unlock](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html).
 
-## To-Do List
+#### 3. Generate SMBIOS for Your EFI.
+Download the [GenSMBIOS tool](https://github.com/corpnewt/GenSMBIOS) and select `MacBookPro15,1` for proper functionality. Run the appropriate file for your OS platform (.bat for Windows). Choose options 1, 2, and 3 as instructed to install/update MacSerial, update your EFI's config.plist, and write all necessary info into the config.plist.
 
-- [ ] Add detailed troubleshooting section.
-- [ ] Include compatibility charts for different macOS versions.
-- [ ] Provide a guide for creating a bootable USB.
-- [ ] Add instructions for post-installation tweaks.
-- [ ] Incorporate community feedback and contributions.
+#### 4. Finalize the USB.
+Drop the final EFI onto the root of the prepared USB.
+
+#### 5. BIOS Configuration.
+Enter the BIOS menu, select Advanced mode, and navigate to the Advanced Tab. Disable VT-d and set AHCI in Advanced\SATA Configuration. Disable Fast Boot in the Boot Tab. Save & Exit, then choose Save Changes and Exit.
+
+#### 6. Boot.
+Boot to the installation and follow the default procedure from the [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb).
 
 ## Credits
 
