@@ -4,9 +4,9 @@
 Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable system, and unexpected issues may occur. I take no responsibility for any damage, data loss, or malfunction caused by the use of this project. Proceed at your own risk.
 
 ## Version Info
-
-| Opencore Version  | 0.9.3 Release      |
-| MacOS Versions    | Tested/Works       |
+| Type       | Version                                           |
+| Opencore Version  | 0.9.3 Release                                           |
+| MacOS Versions    | Tested/Works                                           |
 
 ## Components and Compatibility
 
