@@ -4,7 +4,7 @@
 Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable system, and unexpected issues may occur. I take no responsibility for any damage, data loss, or malfunction caused by the use of this project. Proceed at your own risk.
 
 # Showcase
-![Image](https://github.com/DotCube123/Asus-Tuf-Gaming-FX705GE-Hackintosh/blob/main/Images/MacScreenVersion.png)
+![Image](https://github.com/DotCube123/Asus-Tuf-Gaming-FX705GE-Hackintosh/blob/main/Images/ScreenShot.png)
 ![Image](https://github.com/DotCube123/Asus-Tuf-Gaming-FX705GE-Hackintosh/blob/main/Images/img1.png)
 ![Image](https://github.com/DotCube123/Asus-Tuf-Gaming-FX705GE-Hackintosh/blob/main/Images/img2.png)
 
