@@ -83,7 +83,6 @@ Special thanks to the following contributors for their support and efforts in th
 - [Contributor 3 Name](link to profile)
 
 Your contributions are greatly appreciated!
-
 ---
 
-Feel free to modify and expand on this template as needed to best suit your Hackintosh project. Good luck with your project! If you have any further questions or need more assistance, don't hesitate to ask.
+Good luck with your project! If you have any further questions or need more assistance, don't hesitate to ask.
