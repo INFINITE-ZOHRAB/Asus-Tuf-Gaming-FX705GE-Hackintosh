@@ -48,7 +48,7 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 | `FaceTime/IMessage`  | ✅             |
 | `AirPlay`  | ✅             |
 
-| Storage       | Status             |
+| Installation Drive       | Status             |
 | --------------- | --------------- |
 | `Samsung 970 Evo Plus 2TB`  | ⚠️             |
 | `WD 2.5" HDD 1TB`  | ✅             |
@@ -71,6 +71,9 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 
 ### Fans
 #### While fan control and readings have not been implemented yet, efforts are underway to develop a possible solution for this functionality.
+
+### Installation Drives
+#### The Samsung 970 Evo Plus is kinda known to be an imperfect drive for Hackintosh, from my personal experience I have notived how much trouble was it to install and detect it on the installation part. Eventually I was able to install but then stopped using it as the Hackintosh drive, used a 2.5" HDD and now the Sata SSD.
 
 ## Todo
 - [ ] Fix Fan control and readings.
