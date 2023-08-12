@@ -36,7 +36,7 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 | `Keyboard`       | Keyboard PS2                                 | ⚠️             |
 | `Battery`        | Asus Default Battery                         | ✅             |
 | `Webcam`         | USB2.0 HD UVC WebCam Internal                                              | ✅             |
-| `Microphone`     | KDIR WHAT ARE YOU LOKIN FOR???                                             | ✅             |
+| `Microphone`     | Realtek boom boom brrrrr                                            | ✅             |
 | `USB Ports`     | 3 USB 2.0                                              | ✅             |
 | `Fans`           | 2 Fans                                              | ⚠️             |
 
