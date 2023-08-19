@@ -12,7 +12,7 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 ## Version Info
 | V.I.       | Type                                           |
 | --------------- | ------------------------------------------------ |
-| OC Version             | OC 0.9.3             |
+| OC Version             | OC 0.9.4             |
 | MacOs Tested             | Monterey, Ventura, Sonoma (Still in work)           |
 | Status           | W.I.P                                |
 
