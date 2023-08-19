@@ -4,7 +4,7 @@
 Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable system, and unexpected issues may occur. I take no responsibility for any damage, data loss, or malfunction caused by the use of this project. Proceed at your own risk.
 
 # Showcase
-![Image](https://github.com/DotCube123/Asus-Tuf-Gaming-FX705GE-Hackintosh/blob/main/Images/MacScreenVersion.png)
+![Image](https://github.com/DotCube123/Asus-Tuf-Gaming-FX705GE-Hackintosh/blob/main/Images/ScreenShot.png)
 ![Image](https://github.com/DotCube123/Asus-Tuf-Gaming-FX705GE-Hackintosh/blob/main/Images/img1.png)
 ![Image](https://github.com/DotCube123/Asus-Tuf-Gaming-FX705GE-Hackintosh/blob/main/Images/img2.png)
 
@@ -36,7 +36,7 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 | `Keyboard`       | Keyboard PS2                                 | ⚠️             |
 | `Battery`        | Asus Default Battery                         | ✅             |
 | `Webcam`         | USB2.0 HD UVC WebCam Internal                                              | ✅             |
-| `Microphone`     | Realtek                                              | ✅             |
+| `Microphone`     | Realtek boom boom brrrrr                                            | ✅             |
 | `USB Ports`     | 3 USB 2.0                                              | ✅             |
 | `Fans`           | 2 Fans                                              | ⚠️             |
 
@@ -48,7 +48,7 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 | `FaceTime/IMessage`  | ✅             |
 | `AirPlay`  | ✅             |
 
-| Storage       | Status             |
+| Installation Drive       | Status             |
 | --------------- | --------------- |
 | `Samsung 970 Evo Plus 2TB`  | ⚠️             |
 | `WD 2.5" HDD 1TB`  | ✅             |
@@ -71,6 +71,9 @@ Applying Hackintosh on your Asus Tuf Gaming FX705GE can lead to an unstable syst
 
 ### Fans
 #### While fan control and readings have not been implemented yet, efforts are underway to develop a possible solution for this functionality.
+
+### Installation Drives
+#### The Samsung 970 Evo Plus is kinda known to be an imperfect drive for Hackintosh, from my personal experience I have notived how much trouble was it to install and detect it on the installation part. Eventually I was able to install but then stopped using it as the Hackintosh drive, used a 2.5" HDD and now the Sata SSD.
 
 ## Todo
 - [ ] Fix Fan control and readings.
